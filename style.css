@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai&display=swap');
 
 *{
   padding: 0%;
@@ -6,12 +9,10 @@
 }
 
 body{
-background-image: url(bg_2.png);
+background-image: url(bg_5.png);
 background-size: cover;
 }
 
-/* https://fonts.google.com/specimen/Passions+Conflict?preview.text=Contact%20Preet%20ojha&preview.text_type=custom 
-https://fonts.google.com/specimen/Patrick+Hand*/
 
 .container_new{
   max-width: 52%;
@@ -29,75 +30,60 @@ https://fonts.google.com/specimen/Patrick+Hand*/
   
 }
 .heading{
-  font-family: "Times New Roman", Times, serif;
+  /* font-family: 'Passions Conflict', sans-serif; */
+  /* font-family: 'Arima Madurai', cursive; */
+  font-family: 'Passions Conflict', cursive;
   font-style: inherit;
   text-align: center;
   text-shadow: 10pt;
-  font-size: 30pt;
+  font-size: 50pt;
   margin-bottom: 20pt;
   color: rgb(255, 255, 255);
 }
 
-.sub_heading{
-  font-family: "Times New Roman", Times, serif;
-  font-style: inherit;
-  text-align: left;
-  text-align: center;
-  text-shadow: 25pt;
-  font-size: 15pt;
-  margin-bottom: 20pt;
-  color: rgb(0, 255, 64);
-}
-
-.btn{
-  border-radius: 10pt;
-  padding: 10pt;
-  margin-top: 10pt;
-  max-width: 20%;
-  font-size: large;
-  margin-right: 20pt;
-  border: 2px solid black;
-  margin-left: 5pt;
-  background-color: white;
-  align-items: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+a
+{
+text-decoration: none;
+font-family: 'Patrick Hand', cursive;
 }
 
 .user_input{
    width: 99%;
    align-items: center;
-   border: 2px solid rgb(2, 2, 2);
+   align-self: center;
    margin-top: 6pt;
    padding: 10pt ;
    text-align: center;
-   color: rgb(1, 73, 255);
-   background-color: rgb(33, 168, 82);
-   font-size: 16px;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   /* color: rgb(255, 1, 136); */
+   color: rgb(61,159,210);
+   background-color: rgba(255, 255, 255,0.5);
+   font-size: 14pt;
    border-radius: 5pt;
 }
 
 .class_header{
   margin: 10px;
+  align-items: center;
+  
 }
 
-
-.first_row{
-
-  background-color: rgb(3, 91, 91);
-  width: 500px;
-  padding: 20pt;
-  margin: auto;
-  align-self: center;
-  margin-top: 10px;
-  text-align: left;
-  text-align: center;
-  margin-bottom: 10px;
+.user_input:hover{
+  outline: 0px solid transparent;
+  /* border: 0px solid rgb(255, 1, 136);
+  background-color: rgb(255, 1, 136); */
+  border-left: 5px solid rgb(255,255,255);
+  border-right: 5px solid rgb(255,255,255);
+  background-color: rgb(61,159,210);
+  color: rgb(255, 255, 255);
+  border-radius: 1pt;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
-
 
 .form_content{
   align-items: center;
+  align-content: center;
+  text-align: center;
 }
 
 .btn_layout{
@@ -111,20 +97,6 @@ https://fonts.google.com/specimen/Patrick+Hand*/
   font-size: 16px;
 }
 
-textarea{
-  display: block;
-  border: 2px solid rgb(2, 2, 2);
-  outline: none;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 16px;
-}
-
-form{
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
 
 element.style{
   flex-direction: column;
