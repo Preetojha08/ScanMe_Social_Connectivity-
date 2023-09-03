@@ -9,7 +9,7 @@
 }
 
 body{
-background-image: url(bg_5.png);
+background-image: url(bg_video.mp4);
 background-size: cover;
 }
 
@@ -38,7 +38,7 @@ background-size: cover;
   text-shadow: 10pt;
   font-size: 50pt;
   margin-bottom: 20pt;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 a
@@ -70,12 +70,12 @@ font-family: 'Patrick Hand', cursive;
 .user_input:hover{
   outline: 0px solid transparent;
   /* border: 0px solid rgb(255, 1, 136);
-  background-color: rgb(255, 1, 136); */
+  background-color: rgb(255, 1, 136); 
   border-left: 5px solid rgb(255,255,255);
-  border-right: 5px solid rgb(255,255,255);
+  border-right: 5px solid rgb(255,255,255); */
   background-color: rgb(61,159,210);
   color: rgb(255, 255, 255);
-  border-radius: 1pt;
+  border-radius: 5pt;
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
